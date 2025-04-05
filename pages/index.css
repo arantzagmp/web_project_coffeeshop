@@ -108,11 +108,11 @@ a {
   line-height: 20px;
   color: #838383;
 }
-.header__column_content_address {
+.header__content-address {
   margin-left: auto;
   margin-top: auto;
 }
-.header__column_content_hours {
+.header__content-hours {
   margin-right: auto;
 }
 .recipes {

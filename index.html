@@ -36,20 +36,22 @@
             class="header__logo"
           />
           <nav class="nav__links">
-            <a class="nav__link" href="#recetas">Recetas</a>
-            <a class="nav__link" href="#reservar">Reservar una mesa</a>
-            <a class="nav__link" href="#contacto">Contactos</a>
+            <a class="nav__link" href="#recipes">Recetas</a>
+            <a class="nav__link" href="#reservation">Reservar una mesa</a>
+            <a class="nav__link" href="#footer">Contactos</a>
           </nav>
         </nav>
-        <div class="header__content">
-          <div class="header__title">
-            <span class="header__span-accent">Café de especialidad</span>
-            <h1>en Triple Peaks</h1>
-          </div>
-          <div class="header__description">
+        <div>
+          <span class="header__span-accent">Café de especialidad</span>
+          <h1 class="header__title">en Triple Peaks</h1>
+        </div>
+        <div>
+          <p class="header__description">
             ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
             para darte energía y motivar tu creatividad.
-          </div>
+          </p>
+        </div>
+        <div class="header__content">
           <img
             src="images/inside_coffee_shop.png"
             alt="Foto cafeteria"
@@ -57,7 +59,7 @@
           />
         </div>
         <div class="header__footer">
-          <div class="header__column_content_hours">
+          <div class="header__content-hours">
             <p class="header__paragraph">Horario:</p>
             <p class="header__paragraph">
               Lunes a Viernes (de 10:00h a 19:00h)
@@ -66,7 +68,7 @@
               Sábados y Domingos (de 11:00h a 18:00h)
             </p>
           </div>
-          <div class="header__column_content_address">
+          <div class="header__content-address">
             <p class="header__paragraph">
               Avenida del Éxito 200, Ciudad Triple Peaks
             </p>
@@ -74,7 +76,7 @@
         </div>
       </header>
       <main class="content">
-        <section id="recetas" class="recipes">
+        <section id="recipes" class="recipes">
           <div class="recipes__title">
             <h2>Recetas</h2>
           </div>
@@ -86,8 +88,9 @@
           </div>
           <div class="recipes__videos">
             <div class="recipes__video-item">
-              <div class="recipes__iframe">
+              <div>
                 <iframe
+                  class="recipes__iframe"
                   width="480"
                   height="273"
                   src="https://www.youtube.com/embed/mhDJNfV7hjk?si=z9NKv6W8ovmlbtP2"
@@ -102,8 +105,9 @@
               </div>
             </div>
             <div class="recipes__video-item">
-              <div class="recipes__iframe">
+              <div>
                 <iframe
+                  class="recipes__iframe"
                   width="480"
                   height="273"
                   src="https://www.youtube.com/embed/V6MUHbGE5-A?si=SpWE2YwXFypCyf7a"
@@ -119,9 +123,9 @@
             </div>
           </div>
         </section>
-        <section id="reservar" class="reservation"></section>
+        <section id="reservation" class="reservation"></section>
       </main>
-      <footer id="contacto" class="footer"></footer>
+      <footer id="footer" class="footer"></footer>
     </div>
   </body>
 </html>
