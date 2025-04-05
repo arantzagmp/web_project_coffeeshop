@@ -41,7 +41,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
-.header__logo {
+.nav__logo {
   height: 39px;
   width: 105px;
   position: relative;
