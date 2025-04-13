@@ -10,7 +10,6 @@
     />
     <meta name="keywords" content="cafeteria, nueva, llamativa, café" />
     <title>Nueva Cafetería</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -142,6 +141,8 @@
                   id="input-number"
                   class="form__input"
                   placeholder="1-8"
+                  min="1"
+                  max="8"
                   required
                 />
               </label>
@@ -172,7 +173,26 @@
           </form>
         </section>
       </main>
-      <footer id="footer" class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__content">
+          <div class="footer__circle"></div>
+          <img class="footer__logo" src="/images/logo_coffeeshop_light.svg" />
+          <div class="footer__social">
+            <p class="social-heading">Redes sociales</p>
+            <div class="footer__list">
+              <div class="list-item">
+                <img class="social-icon" src="/images/facebook_white.svg" />
+                <p class="social-link">Facebook</p>
+              </div>
+              <div class="list-item">
+                <img class="social-icon" src="/images/instagram_white.svg" />
+                <p class="social-link">Instagram</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">&copy; 2025 Arantza García Mora</div>
+      </footer>
     </div>
   </body>
 </html>
