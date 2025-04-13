@@ -30,7 +30,7 @@
   flex-direction: column;
   margin-left: auto;
 }
-.social-heading {
+.footer__social-heading {
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -45,12 +45,12 @@
   gap: 16px;
   align-items: end;
 }
-.list-item {
+.footer__list-item {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
-.social-link {
+.footer__social-link {
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
@@ -58,12 +58,12 @@
   line-height: 20px;
   color: #fff;
 }
-.social-icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
 }
 
-.social-link:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
 }
 .footer__copyright {
