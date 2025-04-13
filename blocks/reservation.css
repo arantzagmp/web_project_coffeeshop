@@ -7,9 +7,10 @@
   background-image: url(/images/background_reservation.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 .reservation__title {
-  margin-top: 100px;
   margin-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -24,5 +25,4 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 120px;
 }
