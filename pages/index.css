@@ -169,9 +169,10 @@ a {
   background-repeat: no-repeat;
 }
 .reservation__title {
-  text-align: center;
   padding-top: 100px;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
 
   font-family: Inter;
   font-style: normal;
@@ -192,6 +193,8 @@ a {
   flex-direction: column;
   gap: 32px;
   border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .form__label {
