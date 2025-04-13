@@ -121,7 +121,56 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation"></section>
+        <section id="reservation" class="reservation">
+          <h3 class="reservation__title">Reservar una mesa</h3>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="input-name" class="form__label"
+                >Nombre *
+                <input
+                  type="text"
+                  id="input-name"
+                  class="form__input"
+                  placeholder="Nombre"
+                  required
+                />
+              </label>
+              <label for="input-number" class="form__label"
+                >Número de comensales *
+                <input
+                  type="number"
+                  id="input-number"
+                  class="form__input"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+              <label for="input-date" class="form__label"
+                >Fecha y hora *
+                <input
+                  type="datetime-local"
+                  id="input-date"
+                  class="form__input"
+                  required
+                />
+              </label>
+              <label for="input-email" class="form__label"
+                >Tu correo electrónico *
+                <input
+                  id="input-email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Reservar una mesa</button>
+            <label class="form__label form__label-checkbox"
+              ><input type="checkbox" class="form__checkbox" required /> Acepto
+              los términos de uso</label
+            >
+          </form>
+        </section>
       </main>
       <footer id="footer" class="footer"></footer>
     </div>
