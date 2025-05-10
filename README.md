@@ -6,3 +6,4 @@ Utilicé las funcionalidades de HTML & CSS avanzadas, como lo son una mejora en 
 Mejoras: Sin duda me gustaría seguir aprendiendo de formularios, siento que es algo muy escencial y podría usarlo para crear exámenes, entonces lo que me gustaría sería aprender a mostrar al usuario cuando algo es correcto o incorrecto, tambíen al final poder dar un valor. Y en el enfoque de este proyecto, diria que se podría llevarlo más allá como un servidor de registro estilo Open Table.
 
 Arantza García Mora Pérez
+https://arantzagmp.github.io/web_project_coffeeshop/index.html
